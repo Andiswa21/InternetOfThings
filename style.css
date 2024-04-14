@@ -1,0 +1,52 @@
+
+
+header {
+    background-color: #FFDA95;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.home {
+    list-style-type: none;
+    display: flex;
+        
+    }
+
+li {
+    margin: 20px;
+        
+    }
+li a {
+    text-decoration: none;
+    font-size: larger;
+    
+}  
+
+.logo {
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.contact{
+    background-color: #E89719;
+    text-align: center;
+   
+  }
+
+
+.email{
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-type: none;
+    margin: 25px;
+   
+}
+
+.cell{
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-type: none;
+}
+
