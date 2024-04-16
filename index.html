@@ -10,9 +10,28 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>
-            Internet of things
-        </h1>
+
+        <div class="container">
+    <div class="card" onclick="goToAboutPage()">
+      <h2>Mission and Vision</h2>
+      <p>We are a free learning institution that accommodates all learning styles.</p>
+    </div>
+
+    <div class="card" onclick="goToContactPage()">
+      <h2>Our Team</h2>
+      <p>Click here to get to know our team and get their contact details.</p>
+    </div>
+  </div>
+
+  <script>
+    function goToAboutPage() {
+      window.location.href = "about.html";
+    }
+
+    function goToContactPage() {
+      window.location.href = "contact.html";
+    }
+  </script>
        
     </body>
 </html>
