@@ -1,37 +1,93 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IOT Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+  <div class="contents_container">
+  
+  <!--------------------------------Header Section ---------------------------------------------------------------->
+  <header>
+      <div class="logo"><img src="./Assets/Images/logo (1).jpeg" height="70px" alt=""></div>
+       <ul class="home">
+              
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
 
-        <div class="container">
-    <div class="card" onclick="goToAboutPage()">
-      <h2>Mission and Vision</h2>
-      <p>We are a free learning institution that accommodates all learning styles.</p>
-    </div>
 
-    <div class="card" onclick="goToContactPage()">
-      <h2>Our Team</h2>
-      <p>Click here to get to know our team and get their contact details.</p>
-    </div>
+          </ul>
+
+  </header>
+ <br>
+
+ <!------------------------------------Information Card Section --------------------------------------------------------->
+ <div class="containerr">
+  <div class="cards" id="card1">
+      <img src="Assets/Images/IoT-internet-of-things-game.jpg" alt="Background Image">
+      <div class="card-content">
+          <h2>INTERNET OF THINGS THEORITICAL INFORMATION</h2>
+          <p>The Internet of things describes devices with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks.</p>
+          <a href="#">READ MORE</a>
+      </div>
+  </div>
+  <div class="cards" id="card2">
+      <img src="Assets/Images/Iot.gif" alt="Background GIF">
+      <div class="card-content">
+          <h2>INTERNET OF THINGS VISSUAL INFORMATION </h2>
+          <p>The Internet of things describes devices with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks.</p>
+          <a href="#">VIEW MORE</a>
+      </div>
+  </div>
+</div>
+
+<br>
+
+  <!---------------------------------Two cards --------------------------------------------------------------------->
+<div class="container">
+  <div class="card" onclick="goToAboutPage()">
+    <h2>Mission and Vision</h2>
+    <p>We are a free learning institution that accommodates all learning styles.</p>
   </div>
 
-  <script>
-    function goToAboutPage() {
-      window.location.href = "about.html";
-    }
+  <div class="card" onclick="goToContactPage()">
+    <h2>Our Team</h2>
+    <p>Click here to get to know our team and get their contact details.</p>
+  </div>
+</div>
 
-    function goToContactPage() {
-      window.location.href = "contact.html";
-    }
-  </script>
-       
-    </body>
+<script>
+  function goToAboutPage() {
+    window.location.href = "about.html";
+  }
+
+  function goToContactPage() {
+    window.location.href = "contact.html";
+  }
+</script>
+
+<!-------------------------------Footer Section------------------------------------------->
+<footer style="background-color: rgba(0, 0, 0, 0.1); width: 100%; text-align: horizontal;">
+   <div class="details"> 
+   <h3 class="address">Address</h3>
+     
+   Stand no:26789 Emdo ext123<br/>
+   Polokwane
+     
+       <div class="social-icons">
+      <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+   <p>© Copyright 2024-2025. </p>
+    </footer>
+    
+</div>
+  
+    
+</body>
 </html>
